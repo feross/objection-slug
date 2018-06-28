@@ -1,0 +1,44 @@
+{
+  "name": "objection-slug",
+  "description": "Automatically generate slugs for an Objection.js model",
+  "version": "0.0.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/objection-slug/issues"
+  },
+  "dependencies": {
+    "mollusc": "^2.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "homepage": "https://github.com/feross/objection-slug",
+  "keywords": [
+    "objection",
+    "slug",
+    "slugify",
+    "url",
+    "objection.js",
+    "model",
+    "objection-js",
+    "plugin",
+    "plugins",
+    "objection-slug",
+    "objection slug",
+    "objection url"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/objection-slug.git"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
