@@ -18,9 +18,10 @@ append a number to the end of the slug.
 
 For example, if the source field is `'How to Fry an Egg'`, then the slug will be
 `'how-to-fry-an-egg'`. However, if that slug already exists in the model's table
-then the slug will be `'how-to-fry-an-egg-1'` (note that `-1` was appended). If
-that slug also exists, then the slug would be `'how-to-fry-an-egg-2'` and so
-on...
+then the slug will be `'how-to-fry-an-egg-1'` (note that `-1` was appended).
+
+And if ***that*** slug also exists, then the slug would be
+`'how-to-fry-an-egg-2'` and so on...
 
 ## Install
 
