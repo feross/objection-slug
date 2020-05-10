@@ -1,7 +1,7 @@
 module.exports = objectionSlug
 
 const mollusc = require('mollusc')
-const uuid = require('uuid/v4')
+const { v4: uuidv4 } = require('uuid')
 
 const MOLLUSC_OPTS = {
   limit: 15, // limit slug to this many words
@@ -39,7 +39,7 @@ function objectionSlug (opts) {
         // If slug has only unicode symbols without an English equivalent,
         // then slug will be empty, so use a UUID.
         if (slug.length === 0) {
-          slug = uuid().replace(/-/g, '')
+          slug = uuidv4().replace(/-/g, '')
         }
 
         // Truncate excessively long slugs
