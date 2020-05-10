@@ -1,3 +1,4 @@
+/*! objection-slug. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 module.exports = objectionSlug
 
 const mollusc = require('mollusc')
