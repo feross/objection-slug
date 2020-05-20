@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "mollusc": "^2.0.0",
-    "uuid": "^7.0.0"
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "standard": "*"
